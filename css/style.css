@@ -1,0 +1,102 @@
+@import "normalize.css";
+@import "variables.css";
+@import "base.css";
+@import "header.css";
+@import "footer.css";
+
+
+/* main styles --------------------------------------------------*/
+
+main {
+  padding: 130px var(--side-padding) 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 28px;
+  letter-spacing: 1.32px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 12px 0 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  border-radius: 0 0 8px 8px;
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+
+.card__content {
+  padding: 16px 12px 10px;
+}
+
+.card__topic {
+  font-size: 12px;
+}
+
+section {
+  margin: 96px 0 126px;
+}
+
+
+
+/* @media --------------------------------------------------*/
+
+@media (max-width: 768px) {
+
+  :root {
+    --side-padding: 45px;
+  }
+
+  main {
+    padding-top: 90px;
+  }
+
+  section {
+    margin: 76px 0;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  :root {
+    --side-padding: 30px;
+  }
+
+  .grid {
+    gap: 20px;
+  }
+
+  li {
+    padding-left: 25px;
+  }
+  
+  .btn {
+    padding: 11px 12px;
+  }
+
+  
+
+}

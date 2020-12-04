@@ -1,0 +1,31 @@
+header {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 50px var(--side-padding) 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding-left: 45px;
+}
+
+.btn {
+  background-color: #f7b500;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: white;
+}
