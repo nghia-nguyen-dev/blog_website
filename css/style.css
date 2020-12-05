@@ -4,7 +4,6 @@
 @import "header.css";
 @import "footer.css";
 
-
 /* main styles --------------------------------------------------*/
 
 main {
@@ -51,12 +50,9 @@ section {
   margin: 96px 0 126px;
 }
 
-
-
 /* @media --------------------------------------------------*/
 
 @media (max-width: 768px) {
-
   :root {
     --side-padding: 45px;
   }
@@ -76,11 +72,9 @@ section {
   h3 {
     font-size: 16px;
   }
-
 }
 
 @media (max-width: 480px) {
-
   :root {
     --side-padding: 30px;
   }
@@ -92,11 +86,8 @@ section {
   li {
     padding-left: 25px;
   }
-  
+
   .btn {
     padding: 11px 12px;
   }
-
-  
-
 }
